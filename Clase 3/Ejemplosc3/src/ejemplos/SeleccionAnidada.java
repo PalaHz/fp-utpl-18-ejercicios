@@ -28,7 +28,7 @@ public class SeleccionAnidada {
         System.out.println("Ingrese calificacion");
         int calificacion = entrada.nextInt();
         
-        if (calificacion >= 50) {
+        if (calificacion >= 50 && calificacion <= 100) {
             System.out.printf("ESTUIANTE %s %s \nAprobado\ncon calificacion\n%d\n", nombre,apellido, calificacion);
         } else {
             if (calificacion < 50) {
